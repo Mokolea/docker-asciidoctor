@@ -7,9 +7,10 @@ Test AsciiDoc using Asciidoctor
 ## Asciidoctor
  - https://asciidoctor.org/
  - https://asciidoctor.org/docs/
- - https://asciidoctor.org/docs/asciidoctor-pdf/
  - https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+ - https://asciidoctor.org/docs/asciidoc-writers-guide/
  - https://asciidoctor.org/docs/user-manual/
+ - https://asciidoctor.org/docs/asciidoctor-pdf/
  - ...
 
 ## Usage
