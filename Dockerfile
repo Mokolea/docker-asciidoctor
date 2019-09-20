@@ -25,6 +25,9 @@ RUN addgroup -g 1000 -S docker && adduser -u 1000 -S docker -G docker
 # Set user to use
 USER docker:docker
 
+# Aliases
+RUN echo "alias ll='ls -l'" >> /home/docker/.bashrc
+
 # Create and set working directory
 WORKDIR /data
 
