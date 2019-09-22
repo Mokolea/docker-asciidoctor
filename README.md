@@ -6,12 +6,14 @@ Test AsciiDoc using Asciidoctor
 
 ## Asciidoctor
  - https://asciidoctor.org/
- - https://asciidoctor.org/docs/
  - https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
- - https://asciidoctor.org/docs/asciidoc-writers-guide/
  - https://asciidoctor.org/docs/user-manual/
  - https://asciidoctor.org/docs/asciidoctor-pdf/
- - ...
+
+Docker container based on:
+ - [Asciidoctor Docker Container](https://github.com/asciidoctor/docker-asciidoctor)
+ - [Asciidoctor Text Processor](https://github.com/asciidoctor/asciidoctor)
+ - [Asciidoctor Project Site](https://github.com/asciidoctor/asciidoctor.org)
 
 ## Usage
  - Start container from current asciidoc-project directory: `$ docker run -it -v $(pwd):/data --name asciidoctor -h asciidoctor mokolea/asciidoctor:latest`
@@ -34,9 +36,13 @@ Runtime Environment (ruby 2.5.5p157 (2019-03-15 revision 67260) [x86_64-linux-mu
 bash-5.0$ 
 
 bash-5.0$ asciidoctor hello-world.adoc 
+bash-5.0$ ls hello-world.html 
+hello-world.html
 bash-5.0$ 
 
 bash-5.0$ asciidoctor-pdf hello-world.adoc 
+bash-5.0$ ls hello-world.pdf 
+hello-world.pdf
 bash-5.0$ 
 ```
 
