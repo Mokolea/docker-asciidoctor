@@ -27,12 +27,12 @@ Docker container based on:
 ```
 bash-5.0$ asciidoctor --version
 Asciidoctor 2.0.10 [https://asciidoctor.org]
-Runtime Environment (ruby 2.5.5p157 (2019-03-15 revision 67260) [x86_64-linux-musl]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
+Runtime Environment (ruby 2.5.7p206 (2019-10-01 revision 67816) [x86_64-linux-musl]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
 bash-5.0$ 
 
 bash-5.0$ asciidoctor-pdf --version
-Asciidoctor PDF 1.5.0.beta.5 using Asciidoctor 2.0.10 [https://asciidoctor.org]
-Runtime Environment (ruby 2.5.5p157 (2019-03-15 revision 67260) [x86_64-linux-musl]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
+Asciidoctor PDF 1.5.0.beta.7 using Asciidoctor 2.0.10 [https://asciidoctor.org]
+Runtime Environment (ruby 2.5.7p206 (2019-10-01 revision 67816) [x86_64-linux-musl]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
 bash-5.0$ 
 
 bash-5.0$ asciidoctor hello-world.adoc 
