@@ -16,12 +16,12 @@ Docker container based on:
  - [Asciidoctor Project Site](https://github.com/asciidoctor/asciidoctor.org)
 
 ## Usage
- - Start container from current asciidoc-project directory: `$ docker run -it -v $(pwd):/data --name asciidoctor -h asciidoctor mokolea/asciidoctor:latest`
+ - Start new container from a current asciidoc-project directory: `$ docker run -it -v $(pwd):/data --name asciidoctor -h asciidoctor mokolea/asciidoctor:latest`
  - Optional: Set user and group IDs to override the default image user (1000:1000) by using parameter:
     - `-u root` for root user
     - `-u $(id -u):$(id -g)` for current host user (experimental - does not work without additional configuration)
- - Subsequent use of the same container: `$ docker start -ai asciidoctor`
- - Start bash shell in the already running container: `$ docker exec -it asciidoctor bash`
+ - Subsequent use of the same stopped container: `$ docker start -ai asciidoctor`
+ - Create bash shell session in the already running container: `$ docker exec -it asciidoctor bash`
 
 ## Test
 ```
