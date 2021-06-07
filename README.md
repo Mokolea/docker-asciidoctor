@@ -25,25 +25,25 @@ Docker container based on:
 
 ## Test
 ```
-bash-5.0$ asciidoctor --version
-Asciidoctor 2.0.10 [https://asciidoctor.org]
-Runtime Environment (ruby 2.5.7p206 (2019-10-01 revision 67816) [x86_64-linux-musl]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
-bash-5.0$ 
+bash-5.1$ asciidoctor --version
+Asciidoctor 2.0.15 [https://asciidoctor.org]
+Runtime Environment (ruby 2.7.3p183 (2021-04-05 revision 6847ee089d) [x86_64-linux-musl]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
+bash-5.1$ 
 
-bash-5.0$ asciidoctor-pdf --version
-Asciidoctor PDF 1.5.0.beta.7 using Asciidoctor 2.0.10 [https://asciidoctor.org]
-Runtime Environment (ruby 2.5.7p206 (2019-10-01 revision 67816) [x86_64-linux-musl]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
-bash-5.0$ 
+bash-5.1$ asciidoctor-pdf --version
+Asciidoctor PDF 1.6.0 using Asciidoctor 2.0.15 [https://asciidoctor.org]
+Runtime Environment (ruby 2.7.3p183 (2021-04-05 revision 6847ee089d) [x86_64-linux-musl]) (lc:UTF-8 fs:UTF-8 in:UTF-8 ex:UTF-8)
+bash-5.1$ 
 
-bash-5.0$ asciidoctor hello-world.adoc 
-bash-5.0$ ls hello-world.html 
+bash-5.1$ asciidoctor hello-world.adoc 
+bash-5.1$ ls hello-world.html 
 hello-world.html
-bash-5.0$ 
+bash-5.1$ 
 
-bash-5.0$ asciidoctor-pdf hello-world.adoc 
-bash-5.0$ ls hello-world.pdf 
+bash-5.1$ asciidoctor-pdf hello-world.adoc 
+bash-5.1$ ls hello-world.pdf 
 hello-world.pdf
-bash-5.0$ 
+bash-5.1$ 
 ```
 
 ## TODO
