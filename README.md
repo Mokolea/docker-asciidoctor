@@ -1,4 +1,4 @@
-# docker-asciidoctor [![Size](https://img.shields.io/microbadger/image-size/mokolea/asciidoctor.svg)](https://hub.docker.com/r/mokolea/asciidoctor) [![Layers](https://img.shields.io/microbadger/layers/mokolea/asciidoctor.svg)](https://hub.docker.com/r/mokolea/asciidoctor)
+# docker-asciidoctor [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/mokolea/asciidoctor)](https://hub.docker.com/r/mokolea/asciidoctor) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/mokolea/asciidoctor/latest)](https://hub.docker.com/r/mokolea/asciidoctor)
 
 Test AsciiDoc using Asciidoctor
 
